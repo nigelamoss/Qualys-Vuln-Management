@@ -1,7 +1,7 @@
 # Qualys-Vuln-Management
 
 ## Description
-This project involves conducting an unauthenticated and authenticated scan on an insecure Windows 10 virtual machine using a Qualys External Scan Application.
+This project involves conducting an unauthenticated and authenticated scan on an insecure Windows 10 virtual machine using a Qualys External Scan Application. Following the scans, security measures will be implemented to remediate vulnerabilities found. 
 
 ## What is Qualys?
 Qualys is a cybersecurity company that offers a cloud-based platform for various security and compliance solutions. Their platform provides tools for vulnerability management, continuous monitoring, web application security, policy compliance, and more. Qualys helps organizations identify vulnerabilities and potential security risks within their systems, assess the security of web applications, and ensure compliance with various industry regulations. Their services aid in maintaining a strong cybersecurity posture and protecting digital assets from potential threats.
