@@ -18,10 +18,13 @@ Unauthenticated Scan Pre-Remediation
 ![image](https://github.com/nigelamoss/Qualys-Vuln-Management/assets/91230399/3ce54337-099a-4bc2-be96-9a7f1a9354d8)
 ![image](https://github.com/nigelamoss/Qualys-Vuln-Management/assets/91230399/bd8b313c-f2b4-49b2-8db9-20a48d4e3cff)
 
-Authenticated Scan Pre-Remeditation
+Authenticated Scan Pre-Remediation
 ![image](https://github.com/nigelamoss/Qualys-Vuln-Management/assets/91230399/03946b80-7481-456b-9f61-ae47a03552a3)
 ![image](https://github.com/nigelamoss/Qualys-Vuln-Management/assets/91230399/2d70f146-3670-4e03-b444-7db663fe0a51)
 
 Authenticated Scan Post-Remediation
 ![image](https://github.com/nigelamoss/Qualys-Vuln-Management/assets/91230399/85f8a56a-bc85-43dd-a1de-4fbaf7ed3e11)
 ![image](https://github.com/nigelamoss/Qualys-Vuln-Management/assets/91230399/54ee677b-b57f-4d30-96f3-91fa92faf230)
+
+## Conclusion
+In this project, we performed an unauthenticated and authenticated scan on an insecure Windows 10 machine. We proceeded to review the vulnerabilities found and implement appropriate security measures to remediate the aforementioned vulnerabilities. After remediation, we ran another authenticated scan to confirm the impact of the security measures. It is noteworthy that the number of vulnerabilities was drastically reduced after the security controls were applied, demonstrating their effectiveness. 
