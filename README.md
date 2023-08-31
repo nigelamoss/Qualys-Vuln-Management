@@ -1,7 +1,10 @@
 # Qualys-Vuln-Management
 
-## Description
-This project involves conducting an unauthenticated and authenticated scan on an insecure Windows 10 virtual machine using a Qualys External Scan Application. Following the scans, security measures will be implemented to remediate vulnerabilities found. 
+## Purpose
+The purpose of this project is to simulate a the basic vulnerability management process. This project involves conducting an unauthenticated scan and authenticated scan on an insecure Windows 10 virtual machine using a Qualys external scan application. Following the scans, security measures will be implemented to remediate vulnerabilities found. 
+
+## What is Vulnerability Management?
+Vulnerability management is a cybersecurity practice aimed at identifying, evaluating, and addressing weaknesses or vulnerabilities in computer systems, networks, software, and applications. The objective is to proactively reduce the potential for security breaches and cyberattacks by identifying points of potential exploitation before malicious actors can take advantage of them.
 
 ## What is Qualys?
 Qualys is a cybersecurity company that offers a cloud-based platform for various security and compliance solutions. Their platform provides tools for vulnerability management, continuous monitoring, web application security, policy compliance, and more. Qualys helps organizations identify vulnerabilities and potential security risks within their systems, assess the security of web applications, and ensure compliance with various industry regulations. Their services aid in maintaining a strong cybersecurity posture and protecting digital assets from potential threats.
@@ -23,8 +26,21 @@ Qualys is a cybersecurity company that offers a cloud-based platform for various
 
 ## Metrics Before Hardening / Security Controls
 
-The following table shows the metrics we measured in our insecure environment:
+The following tables show the metrics we measured in our insecure environment:
 
+Unauthenticated Scan Metrics 
+| Vulnerability Severity   | Confirmed
+| ------------------------ | -----
+| 5                        | 0
+| 4                        | 0
+| 3                        | 0
+| 2                        | 1
+| 1                        | 0
+| Info                     | 21
+| Potential                | 1
+| Total                    | 23
+
+Authenticated Scan Metrics 
 | Vulnerability Severity   | Confirmed
 | ------------------------ | -----
 | 5                        | 7
@@ -33,7 +49,8 @@ The following table shows the metrics we measured in our insecure environment:
 | 2                        | 8
 | 1                        | 0
 | Info                     | 177
-| Total                    | 137
+| Potential                | 0
+| Total                    | 318
 
 ## Remediation Measures
 The following security controls were implementated:
@@ -63,6 +80,7 @@ The following table shows the metrics we measured in our insecure environment af
 | 2                        | 8
 | 1                        | 0
 | Info                     | 4
+| Potential                | 0
 | Total                    | 4
 
 ## Conclusion
